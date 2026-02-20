@@ -1,0 +1,32 @@
+.container{
+    margin: 20px auto;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    background-color: lightgreen;
+    border-radius: 10px;
+}
+
+input, label{
+    display: block;
+    margin:5px 20px;
+}
+
+input{
+    padding: 5px;
+}
+
+h1{
+    text-align: center;
+}
+
+.submit{
+    margin-bottom: 20px;
+    background-color: coral;
+    color: antiquewhite;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 18px;
+    border: none;
+    padding: 5px;
+}
