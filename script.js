@@ -5,6 +5,7 @@ function handleSubmit(event){
         if(opElt){
             let leadDate = new Date(inpElt.value).toLocaleDateString('en-US');
             opElt.value = leadDate;
+            console.log('Test');
         }
     }
 }
